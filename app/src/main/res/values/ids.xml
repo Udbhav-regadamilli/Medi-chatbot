@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="gridLayout" type="id" />
+    <item name="botCard" type="id" />
+    <item name="nearbyCard" type="id" />
+    <item name="remCard" type="id" />
+    <item name="feedbackCard" type="id" />
+</resources>

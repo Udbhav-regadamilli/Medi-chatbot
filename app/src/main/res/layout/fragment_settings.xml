@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- Question 1 -->
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:text="How would you rate the app design?" />
+
+        <RatingBar
+            android:id="@+id/ratingBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question1"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="Rating for app design" />
+
+        <TextView
+            android:id="@+id/comment1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingBar1"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="false"
+            android:hint="." />
+
+        <!-- Question 2 -->
+        <TextView
+            android:id="@+id/question2"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment1"
+            android:layout_marginTop="20dp"
+            android:text="How satisfied are you with the app performance?" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question2"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="Rating for app performance" />
+
+        <TextView
+            android:id="@+id/comment2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingBar2"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:hint="." />
+
+        <!-- Question 3 -->
+        <TextView
+            android:id="@+id/question3"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment2"
+            android:layout_marginTop="20dp"
+            android:text="How would you rate the overall user experience?" />
+
+        <RatingBar
+            android:id="@+id/ratingBar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question3"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="Rating for overall user experience" />
+
+        <TextView
+            android:id="@+id/comment3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingBar3"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:hint="." />
+
+        <!-- Question 4 -->
+        <TextView
+            android:id="@+id/question4"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment3"
+            android:layout_marginTop="20dp"
+            android:text="How likely you could suggest ou applition to others ?" />
+
+        <RatingBar
+            android:id="@+id/ratingBar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question4"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="Rating for overall user experience" />
+
+        <TextView
+            android:id="@+id/comment4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingBar4"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:hint="." />
+
+        <!-- Question 5 -->
+        <TextView
+            android:id="@+id/question5"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment4"
+            android:layout_marginTop="20dp"
+            android:text="How would you rate our team hardwork?" />
+
+        <RatingBar
+            android:id="@+id/ratingBar5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question5"
+            android:layout_marginTop="10dp"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="Rating for overall user experience" />
+
+        <TextView
+            android:id="@+id/comment5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingBar5"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:hint="." />
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/comment5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Submit" />
+    </RelativeLayout>
+</ScrollView>
+
+
