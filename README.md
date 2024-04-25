@@ -1,5 +1,3 @@
-"# Medi-chatbot" 
-
 ## Medi-Chatbot Mobile Application
 
 The **Medi-Chatbot** is a mobile application designed to assist users in predicting diseases based on symptoms, providing drug details based on user input, and displaying nearby hospitals. This README file provides an overview of the application's features, installation instructions, and usage guidelines.
